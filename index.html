@@ -45,13 +45,17 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <label for="random-text">Random text here...</label>
-        <input type="text" name="name"/>
-        <label for="random-text">Your name/nick...</label>
-        <input type="text" name="name"/>
+        <div class="input-group">
+  <span class="input-group-text">Random text here...</span>
+  <textarea class="form-control" aria-label="With textarea"></textarea>
+</div>
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Your name/nick...</label>
+</div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-success">Submit</button>
       </div>
     </div>
   </div>
