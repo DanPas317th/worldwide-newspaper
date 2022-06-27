@@ -5,6 +5,10 @@ body{
   text-align: center;
 }
 
-#board{
+.navbar{
+  padding: 0px;
+}
+
+.board{
   background-color: #9a9fad;
 }
