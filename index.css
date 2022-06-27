@@ -2,13 +2,30 @@
 body{
   background-color: #797b85;
   margin: 0px;
+  padding: 10px;
+}
+
+header{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+.input{
   text-align: center;
 }
 
 .navbar{
   padding: 0px;
+  align-items: center;
 }
 
 .board{
   background-color: #9a9fad;
+}
+
+.table{
+  padding: 40px;
 }
